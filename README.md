@@ -108,5 +108,14 @@ forge test -vvv
 drosera dryrun
 ```
 
-The trap was generated using the local Drosera MCP context and follows the Drosera `collect()` / `shouldRespond()` interface used in the provided Drosera examples.
+## Deployment Notes
 
+Hoodi response deployment:
+
+- Response contract: `0xe43Af5D1D5a10B2eCDBbC41b04C9ece3b9a42F9C`
+- Authorized Drosera Proxy: `0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D`
+- Deployment transaction: `0x343bc426e751612ea9228a80a73b5cfe18f259d7bf412ae3d68a1677b9350de5`
+
+`drosera.toml` is wired to this response contract. Replace it only if the staking protocol provides a native emergency pause executor.
+
+The trap was generated using the local Drosera MCP context and follows the Drosera `collect()` / `shouldRespond()` interface used in the provided Drosera examples.

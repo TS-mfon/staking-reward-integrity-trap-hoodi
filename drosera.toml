@@ -4,7 +4,7 @@ eth_chain_id = 560048
 
 [traps.staking_reward_integrity_trap_hoodi]
 path = "out/StakingRewardIntegrityTrap.sol/StakingRewardIntegrityTrap.json"
-response_contract = "0x0000000000000000000000000000000000000000"
+response_contract = "0xe43Af5D1D5a10B2eCDBbC41b04C9ece3b9a42F9C"
 response_function = "pauseRewardClaims(bytes)"
 cooldown_period_blocks = 20
 min_number_of_operators = 1
@@ -12,4 +12,3 @@ max_number_of_operators = 2
 block_sample_size = 2
 private_trap = false
 whitelist = []
-
